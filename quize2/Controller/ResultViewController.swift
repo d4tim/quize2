@@ -13,12 +13,10 @@ class ResultViewController: UIViewController {
     
     var result = 0
     
-    @IBOutlet weak var random: UILabel!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        random.text = "\(result)"
-        resultLabel.text = "fofm"
         resultLabel.text = "\(result)"
         
         // Do any additional setup after loading the view.

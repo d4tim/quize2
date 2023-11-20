@@ -360,13 +360,6 @@
                                     <action selector="onClickHome:" destination="W4b-c4-RNJ" eventType="touchUpInside" id="KZr-zc-hnQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XbC-cK-5MZ">
-                                <rect key="frame" x="165" y="627" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cRf-Ok-zPJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -383,7 +376,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="random" destination="XbC-cK-5MZ" id="dEZ-GQ-stM"/>
                         <outlet property="resultLabel" destination="LU3-Qk-tKF" id="d6T-N2-KrP"/>
                     </connections>
                 </viewController>
